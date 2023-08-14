@@ -1,0 +1,28 @@
+*{
+    /*background-color: rgba(125, 176, 235, 0.6);*/
+    margin: 1px;
+}
+body{
+    background-image: url(pics/20230526_222413.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tr1{
+    border: 2px solid #000;
+    margin: 15px;
+}
+table{
+    border-collapse: collapse;
+    background-color: rgba(125, 176, 235, .9);
+}
+tr{
+    border: 1px solid #000;
+}
+.img{
+    background-color: rgb(675, 040, 00, .6);
+    display: flex;
+}
+#log{
+box-shadow: 2px 1px 0px 2px;
+border-radius: 20px 30px 20px 30px;
+}
