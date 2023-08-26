@@ -4,26 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Work for U1-B</title>
+    <style>
+        span {
+        -webkit-user-select: none;
+        -webkit-touch-callout: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+        @media print {
+  fieldset>fieldset {
+    display: none;  /* hide whole page */
+  }
+  fieldset{
+    background-color: azure;
+  }
+}
+    </style>
 </head>
 <body style="background-color: gray;">
     <fieldset style="border: 2px dotted black;">
         <center><h1>THIS IS AN ASSIGNMENT OF UNIT 1a</h1></center>
         <fieldset style="width: fit-content;">
             <h3><ins>My Personal details</ins></h3>
-            <span>First name: <b>Bukuru</b></span><br>
-            <span>Second name: <b>Obedi</b></span><br>
-            <span>Last name: <b>Erick</b></span><br>
-            <span>Origin Country: <b>Democratic Republic of the Congo</b></span><br>
-            <span>Current Country: <b>Malawi</b></span><br>
-            <span>Marital status: <b>Single</b></span><br>
+        <span>
+                <span>First name: <b>Bukuru</b></span><br>
+                <span>Second name: <b>Obedi</b></span><br>
+                <span>Last name: <b>Erick</b></span><br>
+                <span>Origin Country: <b>Democratic Republic of the Congo</b></span><br>
+                <span>Current Country: <b>Malawi</b></span><br>
+                <span>Marital status: <b>Single</b></span><br>
+        </span>
             <h2>PHOTO</h2> <img src="er.jpg" alt="My profile picture" width="150px" height="200px" style="border-radius:100px;">
             <h3><Ins>My family member</Ins></h3>
             <p>Here in Malawi, i live with:</p>
-            <ul style="color: white;">
+            <span><ul style="color: white;">
                 <li>My Mother</li>
                 <li>Old Sister</li>
                 <li>Young brother</li>
-            </ul>
+            </ul></span>
             <h3><Ins>My hobbies</Ins></h3>
             <ol style="color: blue; font-weight: bold; font-style: italic;">
                 <li>Reading</li>
